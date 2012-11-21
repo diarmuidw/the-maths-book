@@ -1,0 +1,5 @@
+import sys
+
+sys.path.insert(0, os.path.abspath('.'))
+html_theme_path = ['_themes']
+html_theme = 'sphinx-bootstrap'
