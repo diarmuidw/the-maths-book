@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Coordinate Geometry: The Line &mdash; The Maths Book .1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="The Maths Book .1 documentation" href="index.html" />
+    <link rel="prev" title="The Circle" href="circle.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="circle.html" title="The Circle"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">The Maths Book .1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="coordinate-geometry-the-line">
+<h1>Coordinate Geometry: The Line<a class="headerlink" href="#coordinate-geometry-the-line" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="revision">
+<h2>Revision<a class="headerlink" href="#revision" title="Permalink to this headline">¶</a></h2>
+<p>In your previous course you will have coved some of the basics of the line such as</p>
+<ul class="simple">
+<li>Plot a point such as <span class="math">\(p(3,2)\)</span></li>
+<li>Find the distance between two points</li>
+<li>Find the midpoint of a line</li>
+<li>Find the distance between two points</li>
+</ul>
+<div class="section" id="distance-between-2-points">
+<h3>Distance between 2 points<a class="headerlink" href="#distance-between-2-points" title="Permalink to this headline">¶</a></h3>
+<p>The formula for the distance between two points <span class="math">\(p(x1, y1)\)</span> and <span class="math">\(p(x2, y2)\)</span> is:</p>
+<p>Length of <span class="math">\(\left [ ab \right ]\)</span> is <span class="math">\(\sqrt{(x_{2} -x_{1})^2 +(y_{2}-y_{1})^2}\)</span></p>
+<p>This is because the horizontal distance of the line is given as <span class="math">\(x2-x1\)</span> while the vertical distance of the line is <span class="math">\((y2-y1)\)</span>.
+Pythagorus tells us that the length of the hypotenuse of a right angled triangle is:</p>
+<div class="math">
+\[(hypotenuse)^2 = (base)^2 + (height)^2\]\[hypotenuse = \sqrt{(base)^2 + (height)^2}\]</div>
+</div>
+<div class="section" id="midpoint-of-a-line-segment">
+<h3>Midpoint of a Line Segment<a class="headerlink" href="#midpoint-of-a-line-segment" title="Permalink to this headline">¶</a></h3>
+<p>The midpoint, <span class="math">\(m\)</span>, of a line segment joining <span class="math">\(a\left(x_{1},y_{1}\right)\)</span> and <span class="math">\(b\left(x_{2},y_{2}\right)\)</span> is</p>
+<div class="math">
+\[\left(\frac{x_{1} +x_{2}}{2},\frac{y_{1} +y_{2}}{2}\right)\]</div>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>If <span class="math">\(a\left(-1,3\right)\)</span> and <span class="math">\(b\left(5,7\right)\)</span> are 2 points in the plane, find (i) <span class="math">\(\mid ab \mid\)</span> and (ii) the midpoint of <span class="math">\(\left[ab\right]\)</span>.</p>
+</div>
+<div class="section" id="solution">
+<h3>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h3>
+<p><span class="math">\((i)\)</span> The points are <span class="math">\(a\left(-1,3\right)\)</span> which corresponds to <span class="math">\(a\left(x_{1},y_{1}\right)\)</span> and <span class="math">\(b\left(5,7\right)\)</span> which corresponds to <span class="math">\(b\left(x_{2},y_{2}\right)\)</span></p>
+<div class="math">
+\[     x_{1} = -1 \\y_{1} = 3\\x_{2} = 5\\y_{2} = 7\]</div><div class="math">
+\[\begin{eqnarray}
+     \mid ab \mid  & = & \sqrt{(x_{2} -x_{1})^2 +(y_{2}-y_{1})^2}  \\
+                   & = & \sqrt{(5-(-1))^2 +(7-3)^2} \\
+                   & = & \sqrt{36 +16} \\
+                   & = & \sqrt{52}
+     \end{eqnarray}\]</div><p><span class="math">\((ii)\)</span> Midpoint of <span class="math">\(\left[ab\right]\)</span> :</p>
+<div class="math">
+\[\begin{split}&amp; = &amp; \left(\frac{x_{1} +x_{2}}{2},\frac{y_{1} +y_{2}}{2}\right) \\
+&amp; = &amp; \left(\frac{-1  + 5 }{2},\frac{3 + 7}{2}\right)\\
+&amp; = &amp; (2,5)\end{split}\]</div>
+</div>
+<div class="section" id="extras">
+<h3>Extras<a class="headerlink" href="#extras" title="Permalink to this headline">¶</a></h3>
+<div class="math">
+\[(a + b)^2 = a^2 + 2ab + b^2\]\[(a - b)^2 = a^2 - 2ab + b^2\]\[x^2=y^2\]</div>
+<div class="math">
+\[\cos (2\theta) = \cos^2 \theta - \sin^2 \theta\]</div>
+<div class="math">
+\[\begin{split}(a + b)^2  &amp;=  (a + b)(a + b) \\
+           &amp;=  a^2 + 2ab + b^2\end{split}\]</div>
+<div class="math">
+\[\begin{eqnarray}
+   y    & = & ax^2 + bx + c \\
+   f(x) & = & x^2 + 2xy + y^2
+\end{eqnarray}\]</div><div class="math">
+\[\begin{eqnarray}
+   \sqrt{   (k-0)^2  +( -2k + 2)^2} &=& \sqrt{(k +2)^2 +(-2k +6)^2} \\
+   \Rightarrow k^2 + 4k^2 -8k +4 &=& k^2 +4k +4 +4k^2 -24k +36 \\
+   \Rightarrow -8k +4 &=& 40 -20k \\
+   \Rightarrow 12k &=& 36 \\
+   \Rightarrow k &=& 3 \\
+\end{eqnarray}\]</div><div class="math" id="equation-euler">
+<span class="eqno">(1)</span>\[e^{i\pi} + 1 = 0\]</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Coordinate Geometry: The Line</a><ul>
+<li><a class="reference internal" href="#revision">Revision</a><ul>
+<li><a class="reference internal" href="#distance-between-2-points">Distance between 2 points</a></li>
+<li><a class="reference internal" href="#midpoint-of-a-line-segment">Midpoint of a Line Segment</a></li>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#solution">Solution</a></li>
+<li><a class="reference internal" href="#extras">Extras</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="circle.html"
+                        title="previous chapter">The Circle</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/line.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="circle.html" title="The Circle"
+             >previous</a> |</li>
+        <li><a href="index.html">The Maths Book .1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Diarmuid Wrenne.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
