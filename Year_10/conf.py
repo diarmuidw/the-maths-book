@@ -98,6 +98,10 @@ html_theme = 'default'
 # documentation.
 #html_theme_options = {}
 
+sys.path.insert(0, os.path.abspath('.'))
+html_theme_path = ['_themes']
+html_theme = 'sphinx-bootstrap'
+
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
 
